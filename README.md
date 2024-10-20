@@ -37,61 +37,21 @@ The frontend is built with **React** and **Redux** for state management, while t
 
 ## Installation and Setup
 
-Prerequisites
+### Prerequisites
 Before you begin, ensure you have the following installed on your machine:
 
-Node.js (for running the server and client)
-MongoDB (for the database)
-Steps
-Clone the repository:
+- **Node.js** (for running the server and client)
+- **MongoDB** (for the database)
 
-bash
-Copy code
-git clone https://github.com/levelakc/Subscription-Management-System.git
-cd Subscription-Management-System
-Install server dependencies: Navigate to the server directory and install the required packages:
+### Steps
 
-bash
-Copy code
-cd server
-npm install
-Setup your MongoDB Database: Make sure your MongoDB server is running. You can use MongoDB Atlas for cloud hosting or run it locally.
-
-Seed the database (Optional): If you want to populate your database with initial data, there is a seed file included in the project. You can run the seed script with the following command:
-
-bash
-Copy code
-node seedDatabase.js
-This script will populate your database with sample data for movies, members, and subscriptions. Ensure to review and modify the seed data as needed.
-
-Start the server: After installing the dependencies, you can start your Express server:
-
-bash
-Copy code
-npm start
-Navigate to the client directory: Open a new terminal window and navigate back to the main project directory:
-
-bash
-Copy code
-cd client
-Install client dependencies: Run the following command to install the client-side packages:
-
-bash
-Copy code
-npm install
-Start the client: Finally, start the React application:
-
-bash
-Copy code
-npm start
-Accessing the Application
-Once both the client and server are running, you can access the application in your web browser at http://localhost:3000 for the client and http://localhost:8000 for the server.
-
-Conclusion
-This Subscription Management System provides a comprehensive solution for managing movie subscriptions. Feel free to contribute and enhance the project further!
-
-### Steps:
-1. Clone the repository:
+1. **Clone the repository and run npm start**:
    ```bash
    git clone https://github.com/levelakc/Subscription-Management-System.git
    cd Subscription-Management-System
+   # in client folder
+   cd client
+   npm start
+   # in server folder
+   cd server
+   node index.js
