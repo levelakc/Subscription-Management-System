@@ -1,0 +1,27 @@
+/* src/components/Navbar.css */
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #333;
+  padding: 10px;
+}
+
+.navbar button {
+  background-color: #444; /* Grey background */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border-radius: 4px; /* Match border radius for consistency */
+}
+
+.navbar button:hover {
+  background-color: #555;
+}

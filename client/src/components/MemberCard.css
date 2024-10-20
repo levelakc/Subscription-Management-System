@@ -1,0 +1,39 @@
+/* src/components/MemberCard.css */
+.member-card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.member-details {
+  margin-bottom: 20px;
+}
+
+.member-details button {
+  background-color: #444;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.member-details button:hover {
+  background-color: #555;
+}
+
+.member-details .detailed-view {
+  display: block;
+}
+
+.movies-watched {
+  margin-top: 20px;
+}
+
+.movies-watched h4 {
+  margin-bottom: 10px;
+}

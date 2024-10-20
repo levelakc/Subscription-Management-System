@@ -1,0 +1,62 @@
+/* src/components/Movies.css */
+.movies-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.movie-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f1f1f1;
+  flex: 1;
+  min-width: 200px;
+  margin-bottom: 20px;
+}
+
+.movie-image {
+  width: 100%;
+  text-align: center;
+}
+
+.movie-img {
+  width: 200px;
+  height: 300px;
+  object-fit: cover; /* Ensure consistent image size */
+}
+
+.movie-actions {
+  margin-top: 10px;
+}
+
+.movie-actions button {
+  margin: 5px;
+  background-color: #444;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.movie-actions button:hover {
+  background-color: #555;
+}
+
+.movie-details {
+  text-align: center;
+}
+
+.nav-buttons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.find-movie-label {
+  font-size: 16px; /* Adjust font size to match the search box */
+}
